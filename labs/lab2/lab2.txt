@@ -1,0 +1,13 @@
+1. When using ls -la
+- The first character on the line: File type
+- the next nine characters: The file permission for the user and group. CHMOD 
+- the numbers in the sixth column after the student column: The file size
+- What do . and .. entries mean? . is the current directory and .. is for the parent direcory
+
+2. Determine what the following commands do and their basic syntx:
+- cd: change directory. syntax: cd [directory]
+- rm: remove, for deleting files and directories. syntax: rm [options][file or directory]
+- mkdir: make directory. syntax: mkdir [options[ [directory]
+- rmdir: remove directory. For removing empty directories. syntax: rmdir [directory]
+- head: displays the beginning of a file, the first 10 lines. 
+- tail: displays the end of a file. syntax: tail [file]
