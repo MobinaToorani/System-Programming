@@ -1,0 +1,4 @@
+// The following text is adapted from System Programming with C and Unix by Adam Hoover
+
+What is System Programming? 
+Computer systems are made up of hardware and software. Software gener-ically refers to the programs running on the computer. While both hard-ware and software can be modified or upgraded, it tends to happen more often with software. In fact, the major reason to have software is to provide the abil-ity to change the instruction stream executed on the computer. This means that it is often expected that new programs will be written, or old programs will be modified or evolved, during the life cycle of a computer system. 
