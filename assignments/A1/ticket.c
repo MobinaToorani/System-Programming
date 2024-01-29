@@ -18,13 +18,14 @@ int main() {
         if (strcmp(val, "day") == 0)
             printf("$8\n");
         
-        else if (strcmp(val, "night") == 0)
+        else if (strcmp(val, "night") == 0){
             if (age >= 4 && age <= 16)
                 printf("$12\n");
             else if (age >= 17 && age <= 54)
                 printf("$15\n");
             else
                 printf("$13\n");
+        }
     }
     return 0;
 }
