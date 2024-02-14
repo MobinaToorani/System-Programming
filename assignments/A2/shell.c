@@ -14,8 +14,9 @@ int main() {
     pid_t pid;
 
     while (1) {
-        printf("myshell> ");
         fflush(stdout);
+        printf("myshell> ");
+
 
         if (!fgets(input, MAX_LENGTH, stdin)) {
             fprintf(stderr, "Error reading input.\n");
