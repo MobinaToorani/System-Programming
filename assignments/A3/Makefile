@@ -4,11 +4,11 @@ TARGET = regex
 
 all: $(TARGET)
 
-regx: regex.c
+regex: regex.c
 	$(CC) $(CFLAGS) regex.c -o regex
 
 run:
-	./regex
+	./ticket
 
 clean:
 	rm -f $(TARGET) *.o *~ *.bak
