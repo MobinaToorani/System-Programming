@@ -1,34 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
-    char inputFile[260]; // Buffer size for the file name
-    char outputFile[260]; // Buffer for the output file name
 
-    // Prompt user input for the email file
-    printf("Please input the file containing email addresses: ");
-    if (scanf("%259s", inputFile) != 1) {
-        fprintf(stderr, "Error reading input file name.\n");
-        return EXIT_FAILURE;
-    }
+int main() {
+	char input_file[256];
+	char output_file[256];
+	char command[BUFSIZ];
 
-    // Prompt for the output file name
-    printf("Enter the name of the output file for valid emails: ");
-    scanf("%259s", outputFile);
+	FILE *file;
+	printf("Enter the name of the input file: ");
+    scanf("%s", input_file);
 
-    // Construct the grep command to filter valid email patterns
-    char grepCmd[1024];
-    snprintf(grepCmd, sizeof(grepCmd),
-         "grep -P '^([a-zA-Z0-9_+]+([.-][a-zA-Z0-9_+]+)*)@[a-zA-Z0-9-]+(\\.[a-zA-Z]{2,})+$' %s > %s",
-         inputFile, outputFile);
+	file = fopen(input_file, "r");
+	if (file == 0){
+		fprintf(stderr, "Error opening input file: No such file or directory\n");
+		return 1;
+	}
 
-    // Execute the command to filter emails
-    if (system(grepCmd) == -1) {
-        perror("Failed to execute grep command");
-        return EXIT_FAILURE;
-    } else {
-        printf("Filtered valid emails are saved in %s\n", outputFile);
-    }
+	fclose(file);
 
-    return EXIT_SUCCESS;
+	printf("Enter the name of the output file for valid emails: ");
+	scanf("%s", output_file);
+
+	sprintf(command, "grep -P '^([a-zA-Z0-9_+]+([.-][a-zA-Z0-9_+]+)*)@[a-zA-Z0-9-]+(\\.[a-zA-Z]{2,})+$' %s > %s", 
+             input_file, output_file);
+	system(command);
+	
+	printf("Valid emails extracted and saved to %s\n", output_file);
+	return 0;
 }
