@@ -8,7 +8,7 @@ regex: regex.c
 	$(CC) $(CFLAGS) regex.c -o regex
 
 run:
-	./ticket
+	./regex
 
 clean:
 	rm -f $(TARGET) *.o *~ *.bak
