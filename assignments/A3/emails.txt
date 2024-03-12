@@ -1,0 +1,26 @@
+valid emails:
+
+mkyong@yahoo.com
+mkyong-100@yahoo.com
+mkyong.100@yahoo.com
+mkyong111@mkyong.com
+mkyong-100@mkyong.net
+mkyong.100@mkyong.com.au
+mkyong@1.com
+mkyong@gmail.com
+mkyong+100@gmail.com
+mkyong-100@yahoo-test.com
+
+invalid emails:
+
+mkyong
+mkyong@.com.my
+mkyong123@gmail.a
+mkyong123@.com
+mkyong123@.com.com
+mkyong#@mkyong.com
+mkyong()*@gmail.com, mkyong@%*.com
+mkyong..2002?@gmail.com
+mkyong.@gmail.com
+mkyong@mkyong
+mkyong-@gmail.com.1a
