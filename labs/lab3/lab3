@@ -1,0 +1,15 @@
+#1. Get a partner. Try to access one of your partner's directoeis using ls. What happens?
+
+I am able to enter the directory and view the files.
+
+#2. Both you and your partner change permissions on one of your existing directories. What do yo have to do to allow your partner to see the contents of your directories, and visa-versa?
+
+I have to change my file permissions using chmod to allow for group to have r permissions
+
+#3. Both you and your partner change permissions on one of your existing directories. What do you have to do to allow your partner to create a file in one of your directories, and visa-versa?
+
+I have to change the permission of the directories to include w as one of the permissions.
+
+#4 Atempt to delete a file that your partner created in your directory. How is that working for you?
+
+Only the owner of the file can delete it.
