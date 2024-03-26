@@ -2,8 +2,8 @@
 
 ################################################################################
 # Assignment: System Status Script
-# Author: Mobina Tooranisama
-# Date: 2024-03-24
+# Author: Mobina Toorani
+# Date: 2024-03-25
 #
 # Description:
 #   This script monitors various system metrics such as CPU utilization, free memory,
@@ -100,6 +100,9 @@ check_all(){
     echo "Sending email with the system status to $1"
     echo "##########################################"
 }
+
+# Uncomment the line below to enable the email functionality. You need to replace "email@email.com" with the actual email address.
+# send_report "email@email.com"
 
 # Uncomment the line below to enable the email functionality. You need to replace "email@email.com" with the actual email address.
 send_report "toor6720@mylaurier.ca"
