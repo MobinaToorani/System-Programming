@@ -101,9 +101,5 @@ check_all(){
     echo "##########################################"
 }
 
-# Uncomment the line below to enable the email functionality. You need to replace "email@email.com" with the actual email address.
-# send_report "email@email.com"
-
-# Uncomment the line below to enable the email functionality. You need to replace "email@email.com" with the actual email address.
 send_report "toor6720@mylaurier.ca"
 check_all
