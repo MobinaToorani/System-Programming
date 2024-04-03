@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-Conflicting change in main branch
-=======
-new line
->>>>>>> new-branch
+Hello world
