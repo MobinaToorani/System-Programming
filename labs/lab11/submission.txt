@@ -1,0 +1,300 @@
+CONFLICT:
+RESOLUTION:
+hello world
+This is a new line
+New line in new branch
+TREE:
+*   commit 9854affd4a345be25ebbd446dad41012bbd8d8ac
+|\  Merge: d2b52e1 1449ab6
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Apr 3 01:30:52 2024 -0400
+| | 
+| |     Resolved merge conflict
+| | 
+| * commit 1449ab62db2c7f774ec14de66f49614c4fba61a8
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Apr 3 01:27:27 2024 -0400
+| | 
+| |     Changed myfile.txt in new-branch
+| | 
+* | commit d2b52e1650ba456ab7c927c8a277ef3de17f2502
+|/  Author: Mobina Toorani <mobinatoorani@gmail.com>
+|   Date:   Wed Apr 3 01:28:16 2024 -0400
+|   
+|       Changed myfile.txt in main branch
+| 
+* commit 29a7b3d749c0b1ef90cbca8fb1e0e5bc89a29b8b
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Wed Apr 3 01:26:02 2024 -0400
+| 
+|     Added new line
+|   
+*   commit 6c60e4f6a10bc5e13f232b9693bda401ca66d4c7
+|\  Merge: 4568ac7 e773ea0
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Apr 3 01:25:10 2024 -0400
+| | 
+| |     initial commit
+| | 
+| * commit e773ea09585f9064b4f0519dd326ff87b5418f29
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Apr 3 01:20:46 2024 -0400
+| | 
+| |     Added new line
+| | 
+| * commit 4acb46fcacb22a28f4aa7dc091e4ac467809a587
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Apr 3 00:04:16 2024 -0400
+| | 
+| |     Changed myfile.txt in a new-branch branch
+| | 
+* | commit 4568ac708286de1ccd5dbb0470b3e16146cd732b
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Apr 3 01:19:17 2024 -0400
+| | 
+| |     initial commit
+| | 
+* | commit e21204935a60011bcfff607e0c453ee5fe2c6f35
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Apr 3 00:42:06 2024 -0400
+| | 
+| |     Update A5
+| | 
+* | commit 1eeb15bd06b86d401786dbc5601eca4e3ccee76b
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Apr 3 00:26:06 2024 -0400
+| | 
+| |     Resolved merge conflict
+| | 
+* | commit b44ec61e2c69a6719785d0cdd3d3ad6970522cdd
+|/  Author: Mobina Toorani <mobinatoorani@gmail.com>
+|   Date:   Wed Apr 3 00:05:55 2024 -0400
+|   
+|       Changed myfile.txt in main branch
+| 
+* commit debcaa2b3bd9d7557690f999f92f5c8fa1e30bd4
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Tue Apr 2 23:57:45 2024 -0400
+| 
+|     Added new branch
+| 
+* commit 93883eff02a64c60d91a1c3fff0f12c4e2d24e7e
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Tue Apr 2 23:55:15 2024 -0400
+| 
+|     add new file
+| 
+* commit 034da02b80f3d98cdb2efe5e37a7ad497fdbb0ba
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Mon Mar 25 22:33:36 2024 -0400
+| 
+|     Fix A5
+| 
+* commit 69f55e1050379e109ca4f5e58f2296d585da61d4
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Mon Mar 25 22:11:53 2024 -0400
+| 
+|     Fix A5
+| 
+* commit a5ca2daf4c46c8794c0928c96844f0ee4aa39bf5
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Mon Mar 25 22:11:29 2024 -0400
+| 
+|     Fix A5
+| 
+* commit 8901a0d99b5fbb91f51d6451b22c3e41c83186eb
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Mon Mar 25 21:56:55 2024 -0400
+| 
+|     Fix A5
+| 
+* commit 250a0ec10a55beefee14f40f8fe2e2779fc102e9
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Sun Mar 24 14:58:40 2024 -0400
+| 
+|     Fix errors
+|   
+*   commit dbe49cf64e08f99b3d83238980a399813b2f14a3
+|\  Merge: 68dcf29 604b8a6
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Sat Mar 23 20:15:33 2024 -0400
+| | 
+| |     Merge branch 'main' of https://github.com/MobinaToorani/System-Programming
+| | 
+| * commit 604b8a6d09355563be99fc0de3d7e0b6bc0378cb
+| | Author: Mobina Tooranisama <mobinatoorani@gmail.com>
+| | Date:   Wed Mar 20 03:54:09 2024 -0400
+| | 
+| |     Update labs
+| |   
+| *   commit 04c93ed9bde6f9b6d5cfc7c8732dd6165861819c
+| |\  Merge: 82a3962 0b441bf
+| | | Author: Mobina Tooranisama <mobinatoorani@gmail.com>
+| | | Date:   Wed Mar 20 03:52:56 2024 -0400
+| | | 
+| | |     Merge branch 'main' of https://github.com/MobinaToorani/System-Programming into main
+| | | 
+| * | commit 82a396293e658557b2ab59882bb29314357fc194
+| | | Author: Mobina Tooranisama <mobinatoorani@gmail.com>
+| | | Date:   Wed Feb 28 13:16:39 2024 -0500
+| | | 
+| | |     Upload lab 6
+| | | 
+* | | commit 68dcf2984605ea709f2944b242e7182f95e9c9a0
+| |/  Author: Mobina Toorani <mobinatoorani@gmail.com>
+|/|   Date:   Sat Mar 23 20:13:39 2024 -0400
+| |   
+| |       Add A5
+| | 
+* | commit 0b441bf4c180b43a5c2edb7c753ac1807e911975
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Mar 20 03:35:26 2024 -0400
+| | 
+| |     Add lab 9
+| | 
+* | commit e2bfc7f25ed6c10975065a7551d3f20a9a33154c
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Tue Mar 12 00:19:58 2024 -0400
+| | 
+| |     Update A4
+| | 
+* | commit 60405a60669148a9c4d96bd37380363ec7328267
+|\| Merge: 2187963 e729cda
+| | Author: Mobina Tooranisama <mobinatoorani@gmail.com>
+| | Date:   Mon Mar 11 21:59:51 2024 -0400
+| | 
+| |     Merge pull request #1 from MobinaToorani/master
+| |     
+| |     Master
+| | 
+| * commit e729cda672fbff33dc7b13eb7d481c997f0a80a9
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Mon Mar 11 21:51:45 2024 -0400
+| | 
+| |     A4
+| | 
+| * commit 684cb1c491f883ecda10eba131d47ac85788d607
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Mon Feb 26 14:56:58 2024 -0500
+| | 
+| |     Fix errors
+| | 
+| * commit ed589d12d2afe907b823b59bc94a4966cfb9bc7f
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Mon Feb 26 13:06:21 2024 -0500
+| | 
+| |     Remove valid file
+| | 
+| * commit 7428c0307c31e067e6e7ad053900d550c49aa81c
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Mon Feb 26 13:06:02 2024 -0500
+| | 
+| |     Remove exe
+| | 
+| * commit b92e8c2311d71b9d793c8c2e1a68c42bd0bb2049
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Mon Feb 26 13:04:15 2024 -0500
+| | 
+| |     Update A3 Regular Expression
+| | 
+| * commit d9e941641947ff32702165cdfd1a0d97199fd783
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Mon Feb 26 11:42:13 2024 -0500
+| | 
+| |     Start A3 :pencil2:
+| | 
+| * commit 72f44c5d475db20f9eadaca80cd4ad5cfd1dad0d
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Mon Feb 26 11:40:05 2024 -0500
+| | 
+| |     Start A3:pencil2:
+| | 
+| * commit dc4a4774ee2de12eaee19b9e2a51a7d833da4447
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Mon Feb 26 11:34:48 2024 -0500
+| | 
+| |     Start A3:book:
+| | 
+| * commit 78ae012ed9a89407b9bdc932b512c0d3bec76627
+| | Author: Mobina Toorani <mobinatoorani@gmail.com>
+| | Date:   Wed Feb 14 00:51:26 2024 -0500
+| | 
+| |     Add readme
+| | 
+* | commit 2187963da50a67a7b420b5d19e979f55f918bd83
+| | Author: Mobina Tooranisama <mobinatoorani@gmail.com>
+| | Date:   Mon Mar 11 21:53:35 2024 -0400
+| | 
+| |     Update
+| | 
+* | commit 96f79fb5572f694629d759e3d13cee4856cfc850
+|/  Author: Mobina Tooranisama <mobinatoorani@gmail.com>
+|   Date:   Wed Feb 28 13:16:39 2024 -0500
+|   
+|       Upload lab 6
+| 
+* commit 8a8c5626613611977c51d96fe960e9cf1a02ac36
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Wed Feb 14 00:42:34 2024 -0500
+| 
+|     Add lab5
+| 
+* commit 5e026ec0513394a362b145bfcca2b8344374d842
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Wed Feb 14 00:42:00 2024 -0500
+| 
+|     Add git ignore
+| 
+* commit 1d0b2d8052d97d0c62aac64644c09ac9f5900f47
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Wed Feb 14 00:39:22 2024 -0500
+| 
+|     Update lab2
+| 
+* commit 5c4fb6f2b19d98d6ce2e1596b51fc26b72cb0f45
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Wed Feb 14 00:38:42 2024 -0500
+| 
+|     Update shell or whateva
+| 
+* commit 93abac99da4be566425323d767be51408c23ce86
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Tue Jan 30 03:04:14 2024 -0500
+| 
+|     Update Assignment 2
+| 
+* commit 484ed88510841d6c6d1b2cb66dcd371c6e0ce919
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Mon Jan 29 00:48:13 2024 -0500
+| 
+|     Fix error on ticket.c
+| 
+* commit 6d01dd2adc0984173714996c73a4b0f54287abfb
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Mon Jan 29 00:47:37 2024 -0500
+| 
+|     Add triangle.c
+| 
+* commit bbc71f4c53dd840ff7c3fa0285a2920e117cb138
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Sun Jan 28 18:41:12 2024 -0500
+| 
+|     Add filecopy.c and input.txt file to be copied into output.txt
+| 
+* commit ff884300e030762c5221661ca4d0333289eb17a9
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Sun Jan 28 03:26:01 2024 -0500
+| 
+|     Add makefile
+| 
+* commit c471c85df7a8d23f990e4016bdf08ca7fbc98098
+| Author: Mobina Toorani <mobinatoorani@gmail.com>
+| Date:   Sun Jan 28 03:24:26 2024 -0500
+| 
+|     Add A1/ticket.c
+| 
+* commit 5638682b2961defe47ef36212f011f2002c668a4
+  Author: Mobina Tooranisama <mobinatoorani@gmail.com>
+  Date:   Sun Jan 28 01:09:57 2024 -0500
+  
+      Add Labs
