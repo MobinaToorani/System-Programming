@@ -1,1 +1,3 @@
-Conflicting change in main branch
+hello world
+This is a new line
+New line in new branch
