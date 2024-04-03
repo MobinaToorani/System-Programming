@@ -1,2 +1,1 @@
-Hello, World!
-This is written from a new branch
+new line
