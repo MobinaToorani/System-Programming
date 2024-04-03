@@ -55,26 +55,7 @@ mem_free () {
         echo "memory ok!!"
     fi
 }
-disk_usage () {
-    if [ -z "$1" ]; then
-        echo "Usage: disk_usage <disk_threshold_percentage>"
-        exit 1
-    fi
 
-    if [ "$1" -lt 0 ] || [ "$1" -gt 100 ]; then
-        echo "Enter the disk usage threshold percentage between 0 to 100"
-        exit 1
-    fi
-
-    while IFS= read -r line; do
-        current_usage=$(echo $line | awk '{print $5}' | sed 's/%//g')
-        if [ "$current_usage" -gt "$1" ]; then
-            echo "Disk warning!!"
-            return
-        fi
-    done < <(df -h | grep -vE '^Filesystem|tmpfs|cdrom' | awk '{print $1 " " $5}')
-    echo "Disk ok!!"
-}
 disk_usage () {
     if [ -z "$1" ]; then
         echo "Usage: disk_usage <disk_threshold_percentage>"
@@ -120,5 +101,5 @@ check_all(){
     echo "##########################################"
 }
 
-send_report "toor6720@mylaurier.ca"
+send_report "ssehra@wlu.ca"
 check_all
